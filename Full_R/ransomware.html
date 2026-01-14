@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investigation: The History of Ransomware</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body class="summary-page">
+
+    <div id="progress-container">
+        <div id="progress-bar"></div>
+    </div>
+
+    <header class="main-header">
+        <div class="header-container">
+            <h1>Cybersecurity<span>.report</span></h1>
+            <nav>
+                <a href="/index.html" style="text-decoration: none; font-weight: bold; color: var(--primary-color);">← Back to Home</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <main class="content">
+            <article class="post">
+                <h1 class="post-title">The Evolution of Ransomware: From Digital Extortion to Global Crisis</h1>
+                
+                <div class="post-content" style="font-size: 1.1rem; line-height: 1.8;">
+                    <p>
+                        The history of ransomware is a stark reminder of how cybercrime has evolved from niche psychological tricks into a multi-billion dollar industrial enterprise. According to historical data from <strong>CrowdStrike</strong>, while modern ransomware is associated with complex encryption and Bitcoin demands, its roots trace back to 1989 with the <strong>PC Cyborg Trojan</strong> (also known as the AIDS Trojan). Distributed via floppy disks at a WHO conference, this primitive attack hid directories and demanded $189 sent to a P.O. box in Panama. Though the encryption was easily cracked, the "business model" of holding data hostage had been officially born.
+                    </p>
+
+                    <p>
+                        For nearly two decades, ransomware remained relatively obscure due to the difficulty of collecting anonymous payments. However, the mid-2010s saw a perfect storm: the rise of <strong>RSA encryption</strong> and the emergence of <strong>cryptocurrencies</strong>. In 2013, <strong>CryptoLocker</strong> changed the game by utilizing 2048-bit RSA key pairs. This meant that without the hacker's private key, data recovery was mathematically impossible. More importantly, it demanded payment in Bitcoin, providing attackers with a fast, irreversible, and difficult-to-trace financial channel.
+                    </p>
+
+                    <p>
+                        The year 2017 marked a terrifying shift from targeted extortion to global "worm-like" propagation. The <strong>WannaCry</strong> and <strong>NotPetya</strong> attacks utilized the "EternalBlue" exploit (allegedly leaked from the NSA) to spread automatically across networks without any user interaction. WannaCry crippled the UK's National Health Service (NHS) and affected over 200,000 computers worldwide in a matter of hours. This era proved that ransomware was no longer just an IT issue; it was a threat to national security and human life.
+                    </p>
+
+                    <p>
+                        In the 2020s, the strategy evolved into <strong>"Big Game Hunting"</strong> and <strong>"Double Extortion."</strong> Instead of sending thousands of emails to random users for small amounts, hackers began targeting high-value organizations like hospitals, government agencies, and energy providers (such as the Colonial Pipeline attack). Through Double Extortion, attackers not only encrypt the data but also steal it, threatening to leak sensitive information on "leak sites" if the ransom isn't paid. This renders traditional backups useless as a sole defense, as the threat of a data breach remains.
+                    </p>
+
+                    <p>
+                        Today, the industry has matured into <strong>Ransomware-as-a-Service (RaaS)</strong>. High-level developers create the malware and rent it to "affiliates" who carry out the attacks. This specialization has led to an explosion in attack frequency and sophistication. 
+                    </p>
+
+                    <p style="background-color: rgba(217, 35, 15, 0.1); padding: 20px; border-left: 5px solid var(--primary-color); border-radius: 5px;">
+                        As CrowdStrike emphasizes, the modern defense against ransomware requires more than just antivirus; it demands <strong>Zero Trust architectures</strong>, behavioral analysis, and constant threat hunting. The history of ransomware shows that as long as data remains valuable, criminals will find increasingly creative—and destructive—ways to lock us out of it.
+                    </p>
+                </div>
+
+                <div class="post-actions" style="margin-top: 50px;">
+                    <div class="source-link">
+                        <a href="https://www.crowdstrike.com/en-us/cybersecurity-101/ransomware/history-of-ransomware/" target="_blank">View Original CrowdStrike Source →</a>
+                    </div>
+                </div>
+            </article>
+        </main>
+    </div>
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <p>Created by: <strong>David Esposito</strong></p>
+            <p class="footer-divider">|</p> 
+            <p>Investigation Report - 2026</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

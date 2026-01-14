@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Investigation | David Esposito</title>
+   <link rel="icon" href="/img/favicon.ico">
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="progress-container">
+        <div id="progress-bar"></div>
+    </div>
+
+   <header class="main-header">
+    <div class="header-container">
+        <h1>Cybersecurity<span>.report</span></h1>
+        
+        <button class="hamburger" id="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+
+        <nav class="nav-menu" id="nav-menu">
+            <ul>
+                <li><a href="#origins">Origins</a></li>
+                <li><a href="#modern">Malware</a></li>
+                <li><a href="#defense">Defense</a></li>
+                <li><a href="#future">Future</a></li>
+                <li><button id="theme-toggle">🌙 Mode</button></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+    <div class="container">
+        <main class="content">
+            
+           <article class="post" id="origins">
+    <h2 class="post-title">The Origins: From Creeper to the First Antivirus</h2>
+    <p>
+        The cybersecurity started around 1971 with <strong>Creeper</strong>, the first virus. 
+        That virus was a <strong>Worm</strong>, and the following message would appear on your 
+        screen with the text: <em>“I’M THE CREEPER: CATCH ME IF YOU CAN!”</em>
+    </p>
+    
+    <figure>
+        <img src="/img/CREEPER.jpg" alt="Creeper Virus Illustration">
+        <figcaption>Visual representation of the first computer worm message.</figcaption>
+    </figure>
+    
+    <p>
+        After Creeper was created, it led to the release of the first antivirus called 
+        <strong>Reaper</strong>. It was also a Worm designed to attack and delete the Creeper.
+    </p>
+
+    <div class="post-actions">
+        <a href="/Full_R/creeper.html" class="btn-investigation">📊 Read Full Summary</a>
+        
+        <div class="source-link">
+            <a href="https://www.kaspersky.com/resource-center/threats/a-brief-history-of-computer-viruses-and-what-the-future-holds" target="_blank">View Source: Kaspersky Labs →</a>
+        </div>
+    </div>
+</article>
+
+            <article class="post">
+                <h2 class="post-title">Modern Malware: The Era of Ransomware and Phishing</h2>
+                <p>Since Creeper was released, it has evolved into forms such as <strong>“Rabbit”</strong> and <strong>Elk Cloner</strong>. Over the years, cyber attacks have moved from inoffensive pranks to dangerous software.</p>
+                <p>One of the most dangerous threats today is <strong>Ransomware</strong>. It steals data and demands Bitcoin to return it. The first case was the <strong>AIDS Trojan</strong> in 1989, where the hacker demanded 189 dollars.</p>
+                <p>Unlike Creeper, modern attacks use <strong>Phishing</strong> as a primary method to deceive users and steal credentials.</p>
+
+                
+    <div class="post-actions">
+        <a href="/Full_R/ransomware.html" class="btn-investigation">📊 Read Full Summary</a>
+        
+        <div class="source-link">
+           <a href="https://www.crowdstrike.com/en-us/cybersecurity-101/ransomware/history-of-ransomware/" target="_blank">View Source: CrowdStrike History →</a>
+        </div>
+    
+            </article>
+
+          <article class="post" id="defense">
+    <h2 class="post-title">Defensive Shield: Technology vs. Social Engineering</h2>
+    <p>
+        Cybersecurity uses <strong>firewalls</strong> to filter traffic and <strong>antivirus</strong> to detect malicious code. To stay safe, we use strong passwords and <strong>Two-Factor Authentication (2FA)</strong>.
+    </p>
+    <p>
+        However, technology alone is not enough. <strong>Phishing</strong> occurs when a hacker pretends to be a person or company. This is <strong>Social Engineering</strong>, proving that the human is the most vulnerable link.
+    </p>
+
+    <div class="post-actions">
+        <a href="/Full_R/social-engineering.html" class="btn-investigation">📊 Read Full Summary</a>
+        
+        <div class="source-link">
+            <a href="https://gatefy.com/blog/social-engineering-history-computers-internet/" target="_blank">View Source: Gatefy Security →</a>
+        </div>
+    </div>
+</article>
+
+            <article class="post" id="future">
+    <h2 class="post-title">The Future of Threats: AI, Cyber Warfare, and Politics</h2>
+    <p>
+        Hackers now use <strong>Artificial Intelligence (AI)</strong> for <strong>voice cloning</strong> to trick family members or banks. Cybersecurity is also a matter of <strong>Cyber Warfare</strong>, targeting critical infrastructure like power plants.
+    </p>
+    <p>
+        A clear example was the <strong>Cambridge Analytica</strong> scandal. Remember: <strong>a user will never be 100% safe as long as they are connected to the internet.</strong>
+    </p>
+
+    <div class="post-actions">
+        <a href="/Full_R/ai-threats.html" class="btn-investigation">📊 Read Full Summary</a>
+        
+        <div class="source-link">
+            <a href="https://consumer.ftc.gov/consumer-alerts/2023/03/scammers-use-ai-enhance-their-family-emergency-schemes" target="_blank">View Source: FTC AI Warning →</a>
+        </div>
+    </div>
+</article>
+
+        </main>
+    </div>
+
+  <footer class="main-footer">
+    <div class="footer-content">
+        <p>Created by: <strong>David Esposito</strong></p>
+        <p class="footer-divider">|</p> 
+        <p>Date: <span id="current-date"></span></p>
+    </div>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
